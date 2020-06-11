@@ -1,0 +1,9 @@
+<li>
+	{{name}}
+
+	<button type="button" class="btn btn-info btn-sm change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+		{{#if devoured}}bite me{{else}}another?{{/if}}
+	</button>
+
+	<button type="button" class="btn btn-danger btn-sm delete-burger" data-id="{{this.id}}">delete burger?</button>
+</li>
