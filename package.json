@@ -25,6 +25,8 @@
     "handlebars-helper-css": "^0.1.0",
     "lodash": "^4.17.15",
     "mysql": "^2.18.1",
-    "orm": "^5.0.5"
+    "mysql2": "^2.1.0",
+    "orm": "^5.0.5",
+    "sequelize": "^5.21.12"
   }
 }
