@@ -1,6 +1,7 @@
 // Import MySQL connection.
 var connection = require("../config/connection.js");
 
+// The above helper function loops through and creates an array of question marks
 function printQuestionMarks(num) {
   var arr = [];
 
@@ -63,7 +64,6 @@ var orm = {
       cb(result);
     });
   },
-
   update: function (table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 
